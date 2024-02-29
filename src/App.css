@@ -1,0 +1,65 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+#logincomponent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('./loginimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+input{
+  width: 220px;
+  height: 25px;
+  margin-bottom: 8px;
+}
+
+#usename:hover{
+  background-color: rgb(246, 187, 231);
+  text-align: center;
+  
+}
+#password:hover{
+  background-color: rgb(231, 236, 224);
+  text-align: center;
+  
+} 
+
+#login{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 168, 249);
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  /* margin-top: 150px; */
+  width: 500px;
+  /* margin-left: 350px; */
+  /* margin-bottom: 30px; */
+}
+button{
+  margin: 10px;
+  width: 80px;
+  height: 30px;
+  font-size: medium;
+  color: rgb(213, 5, 250);
+  /* cursor: pointer; */
+  
+}
+#btnsubmit:hover{
+cursor: pointer;
+background-color: rgba(153, 223, 4, 0.989);
+border-radius: 10px;
+border-color: rgba(19, 18, 18, 0.943);
+border-width: 5px;
+color: black;
+font-weight: 600;
+height: 40px;
+width: 85px;
+}
+#txt{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
